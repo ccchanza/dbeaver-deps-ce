@@ -41,6 +41,7 @@
         <module>jfreechart</module> -->
         <module>logback</module>
         <module>sshj</module>
+        <module>guava</module>
     </modules>
 
     <build>
