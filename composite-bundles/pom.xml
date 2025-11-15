@@ -43,6 +43,8 @@
         <module>sshj</module>
         <module>guava</module>
         <module>gson</module>
+        <module>org.eclipse.core.runtime</module>
+        <module>org.slf4j</module>
     </modules>
 
     <build>
