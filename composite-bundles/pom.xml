@@ -42,6 +42,7 @@
         <module>logback</module>
         <module>sshj</module>
         <module>guava</module>
+        <module>gson</module>
     </modules>
 
     <build>
