@@ -12,7 +12,7 @@
     <plugin id="com.github.jsqlparser" version="0.0.0"/>
     <plugin id="org.apache.commons.commons-logging" version="0.0.0" />
     <plugin id="org.apache.commons.cli" version="0.0.0" />
-    <plugin id="org.apache.commons.jexl" version="0.0.0" />
+    <!-- <plugin id="org.apache.commons.jexl" version="0.0.0" /> -->
     <plugin id="org.apache.commons.lang3" version="3.18.0" />
     <!-- <plugin id="org.apache.ant" version="1.99.1" /> -->
     <!-- <plugin id="com.jcraft.jsch" version="0.2.8" /> -->
@@ -40,5 +40,6 @@
     <plugin id="org.jkiss.bundle.gson" version="0.0.0" />
     <plugin id="org.jkiss.bundle.org.eclipse.core.runtime" version="0.0.0" />
     <plugin id="org.jkiss.bundle.jakarta.servlet-api" version="0.0.0" />
+    <plugin id="org.jkiss.bundle.commons-jexl3" version="0.0.0" />
 
 </feature>

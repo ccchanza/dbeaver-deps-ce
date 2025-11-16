@@ -45,6 +45,7 @@
         <module>gson</module>
         <module>org.eclipse.core.runtime</module>
         <module>jakarta.servlet-api</module>
+        <module>commons-jexl3</module>
     </modules>
 
     <build>
