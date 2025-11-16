@@ -44,6 +44,7 @@
         <module>guava</module>
         <module>gson</module>
         <module>org.eclipse.core.runtime</module>
+        <module>jakarta.servlet-api</module>
     </modules>
 
     <build>
