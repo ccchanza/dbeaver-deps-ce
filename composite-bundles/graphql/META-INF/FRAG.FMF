@@ -72,4 +72,3 @@ Export-Package: graphql,
  org.dataloader.stats,
  org.dataloader.stats.context,
  org.reactivestreams
-Import-Package: org.slf4j

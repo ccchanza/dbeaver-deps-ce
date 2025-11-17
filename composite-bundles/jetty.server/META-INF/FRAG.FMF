@@ -88,6 +88,4 @@ Export-Package: jakarta.websocket,
  org.eclipse.jetty.websocket.core.server.internal,
  org.eclipse.jetty.websocket.core.util,
  org.eclipse.jetty.xml
-Import-Package: org.slf4j,
- org.slf4j.helpers,
- org.slf4j.spi
+Import-Package: org.slf4j
