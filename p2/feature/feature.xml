@@ -13,7 +13,7 @@
     <plugin id="org.apache.commons.commons-logging" version="0.0.0" />
     <plugin id="org.apache.commons.cli" version="0.0.0" />
     <!-- <plugin id="org.apache.commons.jexl" version="0.0.0" /> -->
-    <plugin id="org.apache.commons.lang3" version="3.18.0" />
+    <!-- <plugin id="org.apache.commons.lang3" version="3.18.0" /> -->
     <!-- <plugin id="org.apache.ant" version="1.99.1" /> -->
     <!-- <plugin id="com.jcraft.jsch" version="0.2.8" /> -->
     <plugin id="picocli" version="4.7.7" />
@@ -26,15 +26,11 @@
 
     <!-- composite bundles -->
     <plugin id="org.jkiss.bundle.logback" version="0.0.0" />
-    <!-- <plugin id="org.jkiss.bundle.apache.batik" version="0.0.0" /> -->
     <plugin id="org.jkiss.bundle.apache.dbcp" version="0.0.0" />
     <plugin id="org.jkiss.bundle.apache.poi" version="0.0.0" />
     <plugin id="org.jkiss.bundle.gis" version="0.0.0" />
     <plugin id="org.jkiss.bundle.graphql" version="0.0.0" />
     <plugin id="org.jkiss.bundle.jetty.server" version="0.0.0" />
-    <!-- <plugin id="org.jkiss.bundle.jetty11.websocket" version="0.0.0" />
-    <plugin id="org.jkiss.bundle.jetty12.websocket" version="0.0.0" />
-    <plugin id="org.jkiss.bundle.jfreechart" version="0.0.0" /> -->
     <plugin id="org.jkiss.bundle.sshj" version="0.0.0" />
     <plugin id="org.jkiss.bundle.guava" version="0.0.0" />
     <plugin id="org.jkiss.bundle.gson" version="0.0.0" />

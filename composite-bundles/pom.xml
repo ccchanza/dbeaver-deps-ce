@@ -30,15 +30,11 @@
     </repositories>
 
     <modules>
-        <!-- <module>apache.batik</module> -->
         <module>apache.dbcp</module>
         <module>apache.poi</module>
         <module>gis</module>
         <module>graphql</module>
         <module>jetty.server</module>
-        <!-- <module>jetty11.websocket</module>
-        <module>jetty12.websocket</module>
-        <module>jfreechart</module> -->
         <module>logback</module>
         <module>sshj</module>
         <module>guava</module>
