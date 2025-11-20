@@ -39,7 +39,7 @@
         <module>sshj</module>
         <module>guava</module>
         <module>gson</module>
-        <module>org.eclipse.core.runtime</module>
+        <!-- <module>org.eclipse.core.runtime</module> -->
         <module>jakarta.servlet-api</module>
         <module>commons-jexl3</module>
         <module>org.slf4j</module>
