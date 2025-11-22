@@ -38,7 +38,10 @@
         <module>logback</module>
         <module>sshj</module>
         <module>guava</module>
+        <module>jsqlparser</module>
         <module>gson</module>
+        <!-- <module>runtime</module> -->
+        <!-- <module>platform</module> -->
         <!-- <module>org.eclipse.core.runtime</module> -->
         <module>jakarta.servlet-api</module>
         <module>commons-jexl3</module>

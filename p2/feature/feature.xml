@@ -33,9 +33,12 @@
     <plugin id="org.jkiss.bundle.jetty.server" version="0.0.0" />
     <plugin id="org.jkiss.bundle.sshj" version="0.0.0" />
     <plugin id="org.jkiss.bundle.guava" version="0.0.0" />
+    <plugin id="org.jkiss.bundle.jsqlparser" version="0.0.0" />
     <plugin id="org.jkiss.bundle.gson" version="0.0.0" />
     <plugin id="org.jkiss.bundle.jakarta.servlet-api" version="0.0.0" />
     <plugin id="org.jkiss.bundle.commons-jexl3" version="0.0.0" />
     <plugin id="org.jkiss.bundle.org.slf4j" version="0.0.0" />
+    <!-- <plugin id="org.jkiss.bundle.runtime" version="0.0.0" /> -->
+    <!-- <plugin id="org.jkiss.bundle.platform" version="0.0.0" /> -->
 
 </feature>
