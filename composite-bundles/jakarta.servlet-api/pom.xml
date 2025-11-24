@@ -5,9 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jkiss.bundle</groupId>
-    <artifactId>sshj</artifactId>
-    <version>0.34.2</version>
-    <packaging>pom</packaging>
+    <artifactId>jakarta.servlet-api</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging> 
+
     <parent>
         <groupId>com.dbeaver.osgi</groupId>
         <artifactId>composite-bundles</artifactId>
@@ -17,19 +18,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.hierynomus</groupId>
-            <artifactId>sshj</artifactId>
-            <version>0.40.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-                <!-- <exclusion>
-                    <groupId>org.bouncycastle</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion> -->
-            </exclusions>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.1.0</version>
         </dependency>
     </dependencies>
 

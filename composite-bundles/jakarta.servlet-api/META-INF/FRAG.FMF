@@ -1,0 +1,2 @@
+Export-Package: jakarta.servlet,
+  jakarta.servlet.http

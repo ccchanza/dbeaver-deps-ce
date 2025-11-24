@@ -42,12 +42,6 @@
             <artifactId>ejml-ddense</artifactId>
             <version>0.41</version>
         </dependency>
-        <!-- WKG is not in Maven Central, use from contribs -->
-        <dependency>
-            <groupId>org.cugos</groupId>
-            <artifactId>wkg</artifactId>
-            <version>0.1</version>
-        </dependency>
     </dependencies>
 
     <properties>

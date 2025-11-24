@@ -22,25 +22,30 @@
             <url>${repo.maven.central.url}</url>
             <layout>default</layout>
         </repository>
-        <repository>
+        <!-- <repository>
             <id>dbeaver-internal</id>
             <url>${repo.maven.dbeaver-custom.url}</url>
             <layout>default</layout>
-        </repository>
+        </repository> -->
     </repositories>
 
     <modules>
-        <module>apache.batik</module>
         <module>apache.dbcp</module>
         <module>apache.poi</module>
         <module>gis</module>
         <module>graphql</module>
         <module>jetty.server</module>
-        <module>jetty11.websocket</module>
-        <module>jetty12.websocket</module>
-        <module>jfreechart</module>
         <module>logback</module>
         <module>sshj</module>
+        <module>guava</module>
+        <module>jsqlparser</module>
+        <module>gson</module>
+        <!-- <module>runtime</module> -->
+        <!-- <module>platform</module> -->
+        <!-- <module>org.eclipse.core.runtime</module> -->
+        <module>jakarta.servlet-api</module>
+        <module>commons-jexl3</module>
+        <module>org.slf4j</module>
     </modules>
 
     <build>

@@ -5,9 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jkiss.bundle</groupId>
-    <artifactId>jfreechart</artifactId>
-    <version>1.5.7</version>
-    <packaging>pom</packaging>
+    <artifactId>commons-jexl3</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging> 
+
     <parent>
         <groupId>com.dbeaver.osgi</groupId>
         <artifactId>composite-bundles</artifactId>
@@ -17,9 +18,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jfree</groupId>
-            <artifactId>jfreechart</artifactId>
-            <version>1.5.3</version>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-jexl3</artifactId>
+            <version>3.6.0</version>
+            <!-- <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions> -->
         </dependency>
     </dependencies>
 

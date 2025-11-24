@@ -1,7 +1,8 @@
 Provide-Capability: osgi.serviceloader;osgi.serviceloader="org.eclipse.jetty.ee10.webapp.Configuration",
  osgi.serviceloader;osgi.serviceloader="jakarta.servlet.ServletContainerInitializer",
  osgi.serviceloader;osgi.serviceloader="jakarta.websocket.server.ServerEndpointConfig$Configurator"
-Require-Bundle: jakarta.servlet-api;bundle-version="6.0.0";visibility:=reexport
+Require-Bundle: org.jkiss.bundle.jakarta.servlet-api,
+ org.jkiss.bundle.logback
 Export-Package: jakarta.websocket,
  jakarta.websocket.server,
  org.eclipse.jetty.alpn.client,
@@ -88,6 +89,4 @@ Export-Package: jakarta.websocket,
  org.eclipse.jetty.websocket.core.server.internal,
  org.eclipse.jetty.websocket.core.util,
  org.eclipse.jetty.xml
-Import-Package: org.slf4j,
- org.slf4j.helpers,
- org.slf4j.spi
+

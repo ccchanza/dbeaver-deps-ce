@@ -19,4 +19,3 @@ Export-Package: org.locationtech.jts,
  org.ejml.data,
  org.ejml.dense.row.decomposition.lu,
  org.ejml.dense.row.linsol.lu
-Import-Package: org.slf4j
